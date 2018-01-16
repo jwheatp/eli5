@@ -3,7 +3,7 @@
 // }
 
 var notions = [
-  "Variable & Tableau / Array",
+  "Variable & Tableau-Array",
   "Fonction",
   "Argument",
   "Booléen",
