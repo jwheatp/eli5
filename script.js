@@ -3,23 +3,16 @@
 // }
 
 var notions = [
-  "Variable",
+  "Variable & Tableau / Array",
   "Fonction",
   "Argument",
   "Booléen",
   "String",
-  "Tableau / Array",
-  "Condition If",
-  "Opérateurs",
+  "Condition If, Then, Else",
   "= vs ==",
-  "Boucle",
-  "Algorithme",
-  "Evénement JS",
-  "Object JS/JSON",
-  "Console JS",
-  "jQuery",
-  "DOM",
-  "Callback JS"
+  "Boucle For et While",
+  "Object JS",
+  "DOM"
 ]
 
 var index = 0;
