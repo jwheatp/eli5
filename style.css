@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 90vh;
+
+  font-size: 2em;
+  font-family: "Trebuchet MS";
+  color: darkslategrey;
+
+  background: whitesmoke;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  max-width: 80%;
+}
+
+.consigne {
+  font-size: 2em;
+}
+
+p {
+  color: grey;
+}
