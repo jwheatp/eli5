@@ -33,7 +33,10 @@ function printNotion() {
     index = index + 1;
   }
 
-  document.getElementById('notion').classList.remove("consigne");
+  if(document.getElementById("list")) {
+    document.getElementById('main').innerHTML = "<h1 id='notion'></h1>";
+  }
+
   document.getElementById('notion').innerHTML = print;
 }
 
@@ -43,3 +46,17 @@ document.onkeypress = function (e) {
       printNotion();
     }
 };
+
+function init() {
+  var ul = document.getElementById("list");
+
+  for( var i = 0; i < notions.length; i++ )
+  {
+    o = notions[i];
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode("Groupe " + i + " : " + o));
+    ul.appendChild(li);
+  }
+}
+
+init();
